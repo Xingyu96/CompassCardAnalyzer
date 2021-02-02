@@ -1,0 +1,31 @@
+{
+  "name": "compass-card-analyzer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cra-template-typescript": "1.1.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.1"
+  },
+  "description": "A tool to visualize compass card usage",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/Xingyu96/CompassCardAnalyzer"
+  },
+  "keywords": [
+    "compass",
+    "card",
+    "translink",
+    "vancouver",
+    "public",
+    "transit"
+  ],
+  "author": "Xingyu Tao",
+  "license": "SEE LICENCE IN .LICENCE"
+}
