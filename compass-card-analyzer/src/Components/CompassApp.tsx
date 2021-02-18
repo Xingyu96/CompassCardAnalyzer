@@ -1,19 +1,22 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Col, Row } from 'react-bootstrap';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Button, Col, Row } from "react-bootstrap";
 
-import './CompassApp.css';
-import NavigationBar from './NavBar/NavigationBar';
-
+import "./CompassApp.css";
+import NavigationBar from "./NavBar/NavigationBar";
+import NavigationList from "./NavList/NavigationList";
 
 function CompassApp() {
   return (
-    <div className="">
-      <NavigationBar/>
-      <Row className="CCAContainer container-fluid">
-        <Col>
+    <div>
+      <NavigationBar />
+      <Row className="big-one">
+        <Col className="col-md-3">
+          <NavigationList />
+        </Col>
+        <Col className="col-md-9">
           <p>Hello World.</p>
-          <Button variant="outline-primary">Primary</Button>{' '}
+          <Button variant="outline-primary">Primary</Button> <div></div>
         </Col>
       </Row>
     </div>

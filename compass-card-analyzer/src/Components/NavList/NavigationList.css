@@ -1,0 +1,27 @@
+.navigation-list {
+  background-color: #36563e;
+  color: white;
+  height: 100%;
+}
+
+div.sticky {
+  position: sticky;
+  top: 55px;
+}
+
+a:link {
+  color: white;
+  font-weight: 800;
+}
+
+a:visited {
+  color: #bec991;
+}
+
+a:hover {
+  color: #b57516;
+}
+
+a:active {
+  color: #b57516;
+}
