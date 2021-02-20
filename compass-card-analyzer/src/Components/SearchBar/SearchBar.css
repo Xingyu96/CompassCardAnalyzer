@@ -1,0 +1,29 @@
+.centered-text {
+  text-align: center;
+}
+
+#search-bar-title {
+  margin-top: 10px;
+}
+
+#search-button {
+  margin: 15px;
+  background-color: #36563e;
+  border-color: #36563e;
+  font-weight: 800;
+}
+
+#search-button:hover {
+  background-color: #bec991;
+  border-color: #bec991;
+}
+
+#search-button:visited {
+  background-color: #bec991;
+  border-color: #bec991;
+}
+
+#search-button:active {
+  background-color: #bec991;
+  border-color: #bec991;
+}

@@ -6,6 +6,7 @@ import "./CompassApp.css";
 import NavigationBar from "./NavBar/NavigationBar";
 import NavigationList from "./NavList/NavigationList";
 import MapComponent from "./Map/MapComponent";
+import SearchBar from "./SearchBar/SearchBar";
 
 function CompassApp() {
   return (
@@ -16,6 +17,7 @@ function CompassApp() {
           <NavigationList />
         </Col>
         <Col className="col-xs-8 col-md-9 col-lg-10 col-xl-10">
+          <SearchBar />
           <Row>
             <MapComponent />
           </Row>
