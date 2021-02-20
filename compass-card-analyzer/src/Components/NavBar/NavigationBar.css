@@ -1,11 +1,20 @@
 .nav-bar {
   background-color: #292929;
-  color: white;
+  color: #eb7c40;
   height: 55px;
 }
 
+#nav-item {
+  color: #eb7c40;
+  font-weight: 800;
+}
+
 #nav-item:hover {
-  color: white;
+  color: #bec991;
+}
+
+#nav-item:active {
+  color: #bec991;
 }
 
 .Logo {

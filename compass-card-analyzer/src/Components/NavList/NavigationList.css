@@ -4,24 +4,24 @@
   height: 100%;
 }
 
-div.sticky {
+.navigation-list div.sticky {
   position: sticky;
   top: 55px;
 }
 
-a:link {
+.navigation-list a:link {
   color: white;
-  font-weight: 800;
+  font-weight: 700;
 }
 
-a:visited {
+.navigation-list a:visited {
   color: #bec991;
 }
 
-a:hover {
-  color: #b57516;
+.navigation-list a:hover {
+  color: #eb7c40;
 }
 
-a:active {
-  color: #b57516;
+.navigation-list a:active {
+  color: #eb7c40;
 }

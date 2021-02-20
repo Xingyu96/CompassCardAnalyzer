@@ -2,3 +2,11 @@
   margin-top: 55px;
   height: 5000px;
 }
+
+.remove-right-padding {
+  padding-right: 0px;
+}
+
+.remove-left-padding {
+  padding-left: 0px;
+}

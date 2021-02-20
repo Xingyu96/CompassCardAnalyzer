@@ -7,7 +7,7 @@ import "./NavigationBar.css";
 function NavigationBar() {
   return (
     <Navbar className="nav-bar" fixed="top" variant="dark">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="#home" id="nav-item">
         <img
           alt=""
           src={logo}
